@@ -799,7 +799,7 @@ def main():
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
                 "[★彡 𝓜𝔂 𝓢𝓾𝓹𝓮𝓻 𝓢𝓪𝓲𝔂𝓪𝓷 𝓑𝓵𝓾𝓮 𝔀𝓸𝓷'𝓽 𝓵𝓮𝓽 𝓶𝓮 𝓭𝓲𝓮 !!! 彡★](https://telegra.ph/file/8bbe47c4dcbf90aa49065.mp4)",
-                *Uptime:* `{}`,
+                
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
